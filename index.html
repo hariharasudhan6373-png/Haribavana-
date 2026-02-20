@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Ulagamey 🌏🩵</title>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 32px;
+  text-shadow: 0 0 15px #00eaff;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.line {
+  background: rgba(255,255,255,0.08);
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+}
+
+.line:hover {
+  background: rgba(0,234,255,0.2);
+  transform: scale(1.03);
+}
+</style>
+</head>
+
+<body>
+
+<h1>Love you di en Ulagamey 🌏🩵😘</h1>
+
+<div class="container" id="content"></div>
+
+<script>
+const nicknames = [
+"Chellam 💖","Thangam 🥰","Uyire ❤️","Anbe 💕","Kannamma 😘","Azhagi 🌸","Vennila 🌙","Iniya 🍯","Pattu 🫶","Rasathi 👑",
+"Ammu 🤍","Thamarai 🌺","Mullai 🌼","Poongodi 🌷","Thenmozhi 🎶","Sundari 💃","Mayilu 🦚","Selvi 🌹","Ilavarasi 👸","Maharani 👑",
+"Idhaya Rani 💓","Devathai 😇","Kadhal Rani 💘","En Idhayam ❤️‍🔥","En Swasam 💞","En Uyir 🫀","Swasame 🌬️","Uyir Thuli 💧","Idhaya Devathai 👼","Kadhal Mazhai 🌧️",
+"En Vaanam ☁️","En Nila 🌕","Nenjin Rani 💗","Uyir Mozhi 📝","Thanga Rani 👑✨","Ponmagal 🌟","Perazhagi 💐","Roja 🌹","Malli 🌼","Alli 🌸",
+"Kuyil 🎵","Mayuri 🦚","Mazhai 🌦️","Venn Megham ☁️🤍","Nila Kutty 🌙💕","Poo Kutty 🌸💗","Honey Poo 🍯🌺","Panjumittai 🍭","Muthu 💎","Muthazhagi ✨",
+"Kani 🍒","Ilam Poo 🌷","Karumbu 🍬","Paal Azhagi 🤍🌸","Chella Kutty 🫶💕","Iniya Pattu 💝","Kanna Kutty 😍","Smile Queen 😊👑","Kadhal Chellam 💘💖","Thanga Silai 🗿💛",
+"Nenjukkul Nila 🌙❤️","Vizhiyin Azhagi 👀✨","Aasai Rani 💞👑","Kadhal Devathai 💕😇","Swasa Rani 🌬️👑","Nenjam ❤️","Idhayam 💓","Aasai Mugam 😊💘","Vaanavil 🌈","Minnal ⚡",
+"Thendral 🌬️","Senorita 💃💕","Azhagiya Nila 🌙✨","Punnagai Rani 😄👑","Idhaya Selvi 💗🌸","Anbu Thuli 💖💧","Uyir Selvi ❤️🌷","Vizhiyamma 👀💞","Poo Mazhai 🌸🌧️","Thanga Poo 🌺💛",
+"Roja Mugam 🌹😊","Vennila Devi 🌕👑","Iniya Mozhi 🎶💝","Kadhal Nila 🌙💘","Idhaya Thamarai 🌺❤️","Azhagiya Mayil 🦚✨","Selva Magal 🌟💕","Anbu Rani 💖👑","Uyir Magal ❤️🌸","Nila Devi 🌙👸",
+"Aasai Thuli 💞💧","Pattu Roja 🌹💝","Kadhal Vennila 🌙💖","Idhaya Poongodi 🌷❤️","Nenjin Selvi 💗🌺","Anbu Kuyil 🎵💖","Vaanam Magal ☁️💕","Thanga Devathai 💛😇","Azhagi Selvi 🌸👑","Vaazhkai ❤️‍🔥✨"
+];
+
+const container = document.getElementById("content");
+
+nicknames.forEach(name => {
+  const div = document.createElement("div");
+  div.className = "line";
+  div.innerHTML = "I love you di en " + name;
+  container.appendChild(div);
+});
+</script>
+
+</body>
+</html>
